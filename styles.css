@@ -17,13 +17,6 @@ body{
 
 
 
-p{
-    margin: 15px;
-    font-size: 20px;
-    padding-top: 10px;
-    color: white;
-    line-height:1.5;
-}
 
 
 .img1{
@@ -51,20 +44,47 @@ h3{
     color: rgb(51, 95, 121)
 }
 
-p, dl, dt{
+p{
     font-size: 24px;
     padding-top: 10px;
     color: white;
     line-height:1.8;
     padding:80px
 }
-
+/* 
 strong{
     
     color: rgb(51, 95, 121);
     font-size: 24px;
-}
+} */
 
 .boxImg1{
-    background-color: aquamarine;
+    margin: 0 auto;
+    height:350px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.contTxt{
+    width: 100%;
+    
+    flex: 1;
+    
+}
+
+.contImg{
+    flex: 1;
+    float: right;
+    width: 100%;
+    
+    align-items: center;
+
+}
+ul{
+    font-size: 24px;
+    padding-top: 10px;
+    color: white;
+    line-height:1.8;
+    padding:80px
 }
